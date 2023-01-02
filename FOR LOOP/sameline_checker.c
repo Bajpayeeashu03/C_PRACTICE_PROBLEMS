@@ -20,10 +20,10 @@ int main()
     int s3 = ((y3-y1)/(x3-x1));
     if(s1==s2==s3)
     {
-        printf("They fall under same line");
+        printf("They fall under the same line");
     }
     else{
-        printf("They do not fall under same line");
+        printf("They do not fall under the same line");
     }
     return 0;
 }
