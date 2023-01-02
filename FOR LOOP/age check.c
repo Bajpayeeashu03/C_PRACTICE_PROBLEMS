@@ -10,15 +10,15 @@ int main()
     scanf("%d"&c);
     if(a<b&&a<c)
     {
-        printf("Ram is youngest")
+        printf("Ram is Youngest")
     }
     else if(b<c&&b<a)
     {
-        printf("Shyam is youngest")
+        printf("Shyam is Youngest")
     }
     else
     {
-        printf("Ajay is youngest")
+        printf("Ajay is Youngest")
     }
     return 0;
 }
