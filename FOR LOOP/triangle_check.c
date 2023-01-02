@@ -9,10 +9,10 @@ int main()
     scanf("%d",&c);
     if((a+b+c)==180)
     {
-        printf("The triangle can be formed");
+        printf("triangle can be formed");
     }
     else{
-        printf("The triangle cannot be formed");
+        printf("triangle cannot be formed");
     }
     return 0;
 }
