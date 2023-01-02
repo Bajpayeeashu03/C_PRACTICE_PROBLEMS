@@ -5,20 +5,20 @@
 int main()
 {
     int x , y,r, x1,y1;
-    printf ("Enter the center x cordinate");
+    printf ("Enter the center X coordinate");
     scanf("%d",&x);
-    printf ("Enter the center y cordinate");
+    printf ("Enter the center Y coordinate");
     scanf("%d",&y);
-    printf ("Enter the radius");
+    printf ("Enter the Radius");
     scanf("%d",&r);
-    printf ("Enter the point x cordinate");
+    printf ("Enter the point X coordinate");
     scanf("%d",&x1);
-    printf ("Enter the point y cordinate");
+    printf ("Enter the point Y coordinate");
     scanf("%d",&y1);
     int d = sqrt(pow((x-x1),2)+pow((y-y1),2));
     if(d<r)
     {
-        printf("The point lies within the circle");
+        printf("The point lies inside the circle");
     }
     else if(d>r)
     {
