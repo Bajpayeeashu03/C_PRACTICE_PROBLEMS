@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {  
-     int a;
+     int num;
     printf("Enter the number \n");
-    scanf("%d",&a);
-    if(a<0)
+    scanf("%d",&num);
+    if(num<0)
     {
-        int b = -1*a;
+        int b = -1*num;
         printf("The absolute value is %d",b);
 
     }
     else
     {
-         printf("The absolute value is %d",a);
+         printf("The absolute value is %d",num);
 
     }
     return 0;
