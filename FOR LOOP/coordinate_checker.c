@@ -14,7 +14,7 @@ else if (y==0)
 {printf("Point Lies On X Axis");
 }
 else if (x==0 && y==0)
-{printf{"point lies on origin");
+{printf{"point lies on the origin");
 }
 else{
 printf("point does not lie on any axis neither the origin");
